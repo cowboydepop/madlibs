@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madlib</title>
+    <style>
+      fieldset {
+        width: max-content;
+      }
+
+      #submit {
+        margin: 5px 0;
+      }
+    </style>
+	</head>
+	<body>
+		<form action="/madlib">
+			<fieldset>
+				<legend>Please fill out the form below</legend>
+				<div>
+					<input type="text" name="person" placeholder="Person">
+				</div>
+				<div>
+					<input type="text" name="color" placeholder="Color">
+        </div>
+        <div>
+          <input type="text" name="noun" placeholder="Noun">
+				</div>
+				<div>
+					<input type="text" name="adjective" placeholder="Adjective">
+				</div>
+			</fieldset>
+			<input type="submit" id="submit" />
+		</form>
+	</body>
+</html>
